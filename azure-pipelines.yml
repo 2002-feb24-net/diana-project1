@@ -36,3 +36,12 @@ steps:
 - script: dotnet build
   workingDirectory: LimsGarden
   displayName: dotnet build
+
+
+# ...
+# do this after other tasks such as building
+- task: DotNetCoreCLI@2
+  inputs:
+    command: test
+    projects: '**/*Tests/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
