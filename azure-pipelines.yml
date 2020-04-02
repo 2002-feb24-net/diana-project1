@@ -34,5 +34,5 @@ steps:
 #  displayName: Show directory contents
 
 - script: dotnet build
-  workingDirectory:
+  workingDirectory: LimsGarden
   displayName: dotnet build
