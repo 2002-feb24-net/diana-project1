@@ -1,0 +1,34 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+# This file defines a set of jobs that will run when triggered on a cloned version of your repo.
+# A job is a set of steps
+# By default, there's one job, and you give it the list of steps
+
+# By default, all branches will get built.
+# Adding a trigger configuration says "only build a master branch"
+
+trigger:
+- master
+
+# A pool is a set of machines for running this job.
+# This configuration says: "use Microsoft's hosted Ubuntu Linux virtual machines"
+# We could have it connect to a machine we control to run the job on
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+# the steps in the job
+# "script" is one kind of step on linux, it will run on bash
+# On windows, it'll run in command prompt
+# Give all steps a good display name
+
+steps:
+- script: echo Hello, world!
+  displayName: Print hello world
+
+- script: |
+    echo "Showing current directory contents"
+    ls
+  displayName: Show directory contents
