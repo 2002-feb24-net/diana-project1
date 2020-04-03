@@ -33,10 +33,22 @@ steps:
 #    ls
 #  displayName: Show directory contents
 
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'sonarcloud-dianalim'
+    organization: '2002-feb24-net'
+    scannerMode: 'MSBuild'
+    projectKey: '2002-feb24-net_diana-project1'
+    projectName: 'diana-project1'
+
 - script: dotnet build
   workingDirectory: LimsGarden
   displayName: dotnet build
 
+- task: SonarCloudAnalyze@1
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
 
 # ...
 # do this after other tasks such as building
