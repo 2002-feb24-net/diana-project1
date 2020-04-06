@@ -60,12 +60,13 @@ steps:
 
 # This is a part of the publishing part, I think...
 
-- task: DotNetCoreCLI@2
+- task: AzureRmWebAppDeployment@4
   inputs:
-    command: publish
-    publishWebProjects: True
-    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-    zipAfterPublish: True
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure subscription 1(9be70b6d-212e-471b-99e3-3789a65e21cd)'
+    appType: 'webApp'
+    WebAppName: 'limsgarden-diana'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
 
 # this code takes all the files in $(Build.ArtifactStagingDirectory) and uploads them as an artifact of your build.
 - task: PublishBuildArtifacts@1
