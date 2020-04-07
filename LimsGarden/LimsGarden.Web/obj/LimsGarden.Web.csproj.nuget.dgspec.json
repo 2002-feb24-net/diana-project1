@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Web/LimsGarden.Web.csproj": {}
+    "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/LimsGarden.Web.csproj": {}
   },
   "projects": {
-    "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Web/LimsGarden.Web.csproj": {
+    "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/LimsGarden.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Web/LimsGarden.Web.csproj",
-        "projectName": "LimsGarden.Web",
-        "projectPath": "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Web/LimsGarden.Web.csproj",
+        "projectUniqueName": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/LimsGarden.Core.csproj",
+        "projectName": "LimsGarden.Core",
+        "projectPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/LimsGarden.Core.csproj",
         "packagesPath": "/Users/dianalim/.nuget/packages/",
-        "outputPath": "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Web/obj/",
+        "outputPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dianalim/.nuget/NuGet/NuGet.Config"
@@ -36,9 +36,148 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/LimsGarden.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/LimsGarden.DataAccess.csproj",
+        "projectName": "LimsGarden.DataAccess",
+        "projectPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/LimsGarden.DataAccess.csproj",
+        "packagesPath": "/Users/dianalim/.nuget/packages/",
+        "outputPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dianalim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/LimsGarden.Core.csproj": {
+                "projectPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/LimsGarden.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/LimsGarden.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/LimsGarden.Web.csproj",
+        "projectName": "LimsGarden.Web",
+        "projectPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/LimsGarden.Web.csproj",
+        "packagesPath": "/Users/dianalim/.nuget/packages/",
+        "outputPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dianalim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/LimsGarden.Core.csproj": {
+                "projectPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/LimsGarden.Core.csproj"
+              },
+              "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/LimsGarden.DataAccess.csproj": {
+                "projectPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/LimsGarden.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[3.1.1, )"
             }
           },
           "imports": [

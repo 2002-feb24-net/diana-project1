@@ -20521,6 +20521,16 @@
   "RootNamespace": "LimsGarden.Web",
   "Documents": [
     {
+      "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Customer/Delete.cshtml",
+      "TargetPath": "Views\\Customer\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Customer/Details.cshtml",
+      "TargetPath": "Views\\Customer\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -20551,8 +20561,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Customer/Edit.cshtml",
+      "TargetPath": "Views\\Customer\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Customer/Create.cshtml",
+      "TargetPath": "Views\\Customer\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Customer/Index.cshtml",
+      "TargetPath": "Views\\Customer\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

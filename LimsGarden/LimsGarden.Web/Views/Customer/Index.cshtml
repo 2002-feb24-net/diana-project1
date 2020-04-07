@@ -1,0 +1,38 @@
+@model LimsGarden.Web.Models.CustomerViewModel
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.customers.First().FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.customers.First().LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.customers.First().Username)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.customers) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
