@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Tests/LimsGarden.Tests.csproj": {}
+    "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Tests/LimsGarden.Tests.csproj": {}
   },
   "projects": {
-    "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Tests/LimsGarden.Tests.csproj": {
+    "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Tests/LimsGarden.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Tests/LimsGarden.Tests.csproj",
+        "projectUniqueName": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Tests/LimsGarden.Tests.csproj",
         "projectName": "LimsGarden.Tests",
-        "projectPath": "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Tests/LimsGarden.Tests.csproj",
+        "projectPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Tests/LimsGarden.Tests.csproj",
         "packagesPath": "/Users/dianalim/.nuget/packages/",
-        "outputPath": "/Users/dianalim/revature/diana-project1/LimsGarden/LimsGarden.Tests/obj/",
+        "outputPath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dianalim/.nuget/NuGet/NuGet.Config"
