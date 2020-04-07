@@ -178,3 +178,6 @@
 /Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/LimsGarden.Web.csproj.CopyComplete
 /Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/staticwebassets/LimsGarden.Web.StaticWebAssets.Manifest.cache
 /Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/staticwebassets/LimsGarden.Web.StaticWebAssets.xml
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/Razor/Views/Orders/Create.cshtml.g.cs
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/Razor/Views/Orders/CreateOrderItem.cshtml.g.cs
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/Razor/Views/Orders/Index.cshtml.g.cs

@@ -14,11 +14,7 @@ namespace LimsGarden.DataAccess.Repositories
 
         private readonly ILogger<CustomerRepository> _logger;
 
-        /// <summary>
-        /// Initializes a new restaurant repository given a suitable restaurant data source.
-        /// </summary>
-        /// <param name="dbContext">The data source</param>
-        /// <param name="logger">The logger</param>
+        
         public CustomerRepository(LimsGardenContext dbContext, ILogger<CustomerRepository> logger)
         {
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
@@ -26,16 +22,7 @@ namespace LimsGarden.DataAccess.Repositories
         }
         public void AddCustomer(Core.Model.Customer customer)
         {
-           /* if (customer.Id != 0)
-            {
-                _logger.LogWarning("Customer to be added has an ID ({customerId}) already: ignoring.", customer.Id);
-            }
-
-            _logger.LogInformation("Adding customer");
-
-            Customer entity = Mapper.MapRestaurantWithReviews(customer);
-            entity.Id = 0;
-            _dbContext.Add(entity); */
+           
             throw new NotImplementedException();
         }
 

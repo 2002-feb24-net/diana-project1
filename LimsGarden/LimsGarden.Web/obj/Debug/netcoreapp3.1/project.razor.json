@@ -20536,6 +20536,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Orders/Index.cshtml",
+      "TargetPath": "Views\\Orders\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -20578,6 +20583,16 @@
     {
       "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Customer/Index.cshtml",
       "TargetPath": "Views\\Customer\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Orders/CreateOrderItem.cshtml",
+      "TargetPath": "Views\\Orders\\CreateOrderItem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Orders/Create.cshtml",
+      "TargetPath": "Views\\Orders\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],
