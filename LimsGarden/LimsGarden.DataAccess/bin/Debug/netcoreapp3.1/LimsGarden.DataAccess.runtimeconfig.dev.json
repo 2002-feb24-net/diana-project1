@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/dianalim/.dotnet/store/|arch|/|tfm|",
+      "/Users/dianalim/.nuget/packages"
+    ]
+  }
+}

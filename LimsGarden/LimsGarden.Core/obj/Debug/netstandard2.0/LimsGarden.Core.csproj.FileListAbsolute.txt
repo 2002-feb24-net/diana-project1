@@ -1,0 +1,8 @@
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/bin/Debug/netstandard2.0/LimsGarden.Core.deps.json
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/bin/Debug/netstandard2.0/LimsGarden.Core.dll
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/bin/Debug/netstandard2.0/LimsGarden.Core.pdb
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/obj/Debug/netstandard2.0/LimsGarden.Core.csprojAssemblyReference.cache
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/obj/Debug/netstandard2.0/LimsGarden.Core.AssemblyInfoInputs.cache
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/obj/Debug/netstandard2.0/LimsGarden.Core.AssemblyInfo.cs
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/obj/Debug/netstandard2.0/LimsGarden.Core.dll
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Core/obj/Debug/netstandard2.0/LimsGarden.Core.pdb

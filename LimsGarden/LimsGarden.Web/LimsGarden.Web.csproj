@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LimsGarden.Core\LimsGarden.Core.csproj" />
-    <ProjectReference Include="..\LimsGarden.DataAccess\LimsGarden.DataAccess.csproj" />
+    <ProjectReference Include="..\LimsGarden.DataAccess\LimsGarden.DataAccess.csproj" />  
   </ItemGroup>
 
 

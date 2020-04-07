@@ -1,0 +1,13 @@
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netcoreapp3.1/LimsGarden.DataAccess.deps.json
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netcoreapp3.1/LimsGarden.DataAccess.runtimeconfig.json
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netcoreapp3.1/LimsGarden.DataAccess.runtimeconfig.dev.json
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netcoreapp3.1/LimsGarden.DataAccess.dll
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netcoreapp3.1/LimsGarden.DataAccess.pdb
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netcoreapp3.1/LimsGarden.Core.dll
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netcoreapp3.1/LimsGarden.Core.pdb
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netcoreapp3.1/LimsGarden.DataAccess.csprojAssemblyReference.cache
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netcoreapp3.1/LimsGarden.DataAccess.AssemblyInfoInputs.cache
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netcoreapp3.1/LimsGarden.DataAccess.AssemblyInfo.cs
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netcoreapp3.1/LimsGarden.DataAccess.csproj.CopyComplete
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netcoreapp3.1/LimsGarden.DataAccess.dll
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netcoreapp3.1/LimsGarden.DataAccess.pdb

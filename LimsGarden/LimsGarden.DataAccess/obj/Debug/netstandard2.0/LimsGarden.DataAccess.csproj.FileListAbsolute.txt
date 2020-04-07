@@ -1,0 +1,11 @@
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netstandard2.0/LimsGarden.DataAccess.deps.json
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netstandard2.0/LimsGarden.DataAccess.dll
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netstandard2.0/LimsGarden.DataAccess.pdb
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netstandard2.0/LimsGarden.Core.dll
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/bin/Debug/netstandard2.0/LimsGarden.Core.pdb
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netstandard2.0/LimsGarden.DataAccess.csprojAssemblyReference.cache
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netstandard2.0/LimsGarden.DataAccess.AssemblyInfoInputs.cache
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netstandard2.0/LimsGarden.DataAccess.AssemblyInfo.cs
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netstandard2.0/LimsGarden.DataAccess.csproj.CopyComplete
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netstandard2.0/LimsGarden.DataAccess.dll
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.DataAccess/obj/Debug/netstandard2.0/LimsGarden.DataAccess.pdb
