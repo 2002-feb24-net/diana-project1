@@ -41,9 +41,11 @@ steps:
     projectKey: '2002-feb24-net_diana-project1'
     projectName: 'diana-project1'
 
-- script: dotnet build
-  workingDirectory: LimsGarden
-  displayName: dotnet build
+- script: |
+    cd LimsGarden
+    cd LimsGarden.Web
+    dotnet run
+  displayName: 'Dotnet run'
 
 - task: SonarCloudAnalyze@1
 - task: SonarCloudPublish@1
