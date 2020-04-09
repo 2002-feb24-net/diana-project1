@@ -17,9 +17,20 @@ namespace LimsGarden.Web
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IWebHostEnvironment env)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+            .SetBasePath(env.ContentRootPath)
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+            .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
+
+            if (env.IsDevelopment())
+            {
+                builder.AddUserSecrets<Startup>();
+            }
+
+            builder.AddEnvironmentVariables();
+            Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -32,7 +43,7 @@ namespace LimsGarden.Web
             services.AddMvc();
             services.AddScoped<ICustomerRepository, CustomerRepository>();
             services.AddDbContext<LimsGardenContext>(options =>
-            options.UseSqlServer(connectionString: SecretConfiguration.secret));
+            options.UseSqlServer(Configuration.GetConnectionString("LimsGardenContext") ));
             
         }
 
