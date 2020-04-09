@@ -1,0 +1,29 @@
+@model LimsGarden.Web.Models.PlantViewModel
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.plants.First().PlantName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.plants.First().InventoryCount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.plants) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlantName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InventoryCount)
+            </td>
+        </tr>
+
+}
+    </tbody>
+</table>

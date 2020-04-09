@@ -182,3 +182,4 @@
 /Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/Razor/Views/Orders/CreateOrderItem.cshtml.g.cs
 /Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/Razor/Views/Orders/Index.cshtml.g.cs
 /Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/Razor/Views/OrderDetails/Index.cshtml.g.cs
+/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/obj/Debug/netcoreapp3.1/Razor/Views/Plant/Index.cshtml.g.cs

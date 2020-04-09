@@ -20526,6 +20526,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Plant/Index.cshtml",
+      "TargetPath": "Views\\Plant\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/dianalim/Documents/dotNETProjects/diana-project1/LimsGarden/LimsGarden.Web/Views/Customer/Details.cshtml",
       "TargetPath": "Views\\Customer\\Details.cshtml",
       "FileKind": "mvc"
