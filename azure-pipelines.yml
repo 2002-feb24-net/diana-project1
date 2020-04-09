@@ -44,8 +44,6 @@ steps:
 
 
 - script: |
-    cd LimsGarden
-    cd LimsGarden.Web
     dotnet build
   displayName: 'Dotnet build'
 
