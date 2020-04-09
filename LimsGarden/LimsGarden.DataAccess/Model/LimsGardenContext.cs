@@ -97,8 +97,8 @@ namespace LimsGarden.DataAccess.Model
                     .HasName("PK__OrderDet__CBE3184EBE4AA3C7");
 
                 entity.Property(e => e.OrderItemId)
-                    .HasColumnName("orderItem_id")
-                    .ValueGeneratedNever();
+                    .HasColumnName("orderItem_id");
+                   // .ValueGeneratedNever();
 
                 entity.Property(e => e.OrderId).HasColumnName("order_id");
 

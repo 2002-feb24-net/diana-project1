@@ -48,6 +48,16 @@ namespace LimsGarden.Web.Controllers
             //throw new NotImplementedException();
         }
 
+        public IActionResult Search(string SearchFirstName, string SearchLastName)
+        {
+            var Name = _context.Customer.Where(x => x.FirstName == SearchFirstName && x.LastName == SearchLastName);
+            var Model = new CustomerViewModel
+            {
+                customers = Name.ToList()
+            };
+            return View("Index", Model);
+        }
+
 
 
         public IActionResult Index()

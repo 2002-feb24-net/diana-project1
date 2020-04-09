@@ -4,6 +4,29 @@
     <a asp-action="Create">Add Customer</a>
 </div>
 
+<button id="search-cust">Search Customers</button>
+<div id="function-inputs">
+        @using (Html.BeginForm("Search"))
+        {
+            <input type="text" id="search-input-fn" style="display:none;" name="SearchFirstName" placeholder="First Name" />
+            <input type="text" id="search-input-ln" style="display:none;" name="SearchLastName" placeholder="Last Name" />
+            <input asp-action="Search" type="submit" value="Search" style="display:none;" id="search-begin"/>
+        }
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        @section scripts{
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('#search-cust').click(function () {
+                        $('#search-input-fn').show(100);
+                        $('#search-input-ln').show(100);
+                        $('#search-begin').show(100);
+                    });
+                });
+            </script>
+        }
+    </div>
+
 <table class="table">
     <thead>
         <tr>

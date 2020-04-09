@@ -40,9 +40,29 @@ namespace WheyMenII.UI.Controllers
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            catch
+           catch
             {
-                return View(item);
+               return View(item);
+            }
+
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public IActionResult addMoreItems([Bind("OrderId", "Quantity", "PlantId")] OrderDetails item)
+        {
+            try
+            {
+                int oid = Convert.ToInt32(TempData["OrderID"]);
+                item.OrderId = oid;
+                _context.OrderDetails.Add(item);
+                _context.SaveChanges();
+                return RedirectToAction("CreateOrderItem");
+            }
+           catch
+            {
+               return View(item);
             }
 
         }
