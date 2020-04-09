@@ -1,0 +1,49 @@
+@model LimsGarden.Web.Models.OrderDetailsViewModel
+
+<div>
+    <a asp-action="Create">Place an Order!</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.orders.First().OrderId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.orders.First().PlantId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.orders.First().Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.orders.First().TotalCost)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.orders) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlantId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalCost)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item">Delete</a>
+            </td>
+        </tr>
+
+}
+    </tbody>
+</table>
