@@ -1,5 +1,9 @@
 @model LimsGarden.Web.Models.CustomerViewModel
 
+<div>
+    <a asp-action="Create">Add Customer</a>
+</div>
+
 <table class="table">
     <thead>
         <tr>
@@ -33,6 +37,7 @@
                 <a asp-action="Delete" asp-route-id="@item">Delete</a>
             </td>
         </tr>
+
 }
     </tbody>
 </table>

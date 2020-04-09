@@ -20,10 +20,35 @@ namespace LimsGarden.Web.Controllers
         public CustomerController(ICustomerRepository repo) =>
             Repo = repo ?? throw new ArgumentException(nameof(repo));
         // GET: /Customer/
-        public IActionResult Create([FromQuery] string search = "")
-        {            
-            throw new NotImplementedException();
+        public IActionResult Create()
+        {     
+            return View();      
+            //throw new NotImplementedException();
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+         public IActionResult Create([Bind("FirstName, LastName, Username, Password")]LimsGarden.Core.Model.Customer CreateCustomer)
+        {     
+            if(ModelState.IsValid)
+            {
+                var newCustomer = new LimsGarden.DataAccess.Model.Customer
+                {
+                    FirstName=CreateCustomer.FirstName, 
+                    LastName=CreateCustomer.LastName,
+                    Username=CreateCustomer.Username,
+                    Password=CreateCustomer.Password
+                };
+
+                _context.Customer.Add(newCustomer);
+                _context.SaveChanges();
+
+                return RedirectToAction(nameof(Index));
+            }
+            return View(CreateCustomer);      
+            //throw new NotImplementedException();
+        }
+
+
 
         public IActionResult Index()
         {
