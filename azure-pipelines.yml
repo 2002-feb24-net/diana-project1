@@ -44,8 +44,8 @@ steps:
 - script: |
     cd LimsGarden
     cd LimsGarden.Web
-    dotnet run
-  displayName: 'Dotnet run'
+    dotnet build
+  displayName: 'Dotnet build'
 
 - task: SonarCloudAnalyze@1
 - task: SonarCloudPublish@1
