@@ -24,10 +24,10 @@ namespace LimsGarden.Web
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
             .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
 
-            if (env.IsDevelopment())
-            {
-                builder.AddUserSecrets<Startup>();
-            }
+           // if (env.IsDevelopment())
+            //{
+              //  builder.AddUserSecrets<Startup>();
+           // }
 
             builder.AddEnvironmentVariables();
             Configuration = builder.Build();
