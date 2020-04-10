@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 using LimsGarden.DataAccess.Model;
 
-namespace WheyMenII.UI.Controllers
+namespace LimsGarden.Web.Controllers 
 {
     public class OrdersController : Controller
     {
@@ -16,8 +16,8 @@ namespace WheyMenII.UI.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var wheyMenContext = await _context.Orders.Include("Customer").Include("Location").ToListAsync();
-            return View(wheyMenContext);
+            var LimsGardenContext = await _context.Orders.Include("Customer").Include("Location").ToListAsync();
+            return View(LimsGardenContext);
         }
 
         public IActionResult CreateOrderItem()
@@ -25,7 +25,7 @@ namespace WheyMenII.UI.Controllers
      
             int storeID = Convert.ToInt32(TempData["StoreID"]);
             TempData["StoreID"] = storeID;
-            ViewData["Pid"] = new SelectList(_context.Plant, "PlantId", "PlantName");
+            ViewData["Pid"] = new SelectList(_context.Plant, "PlantId", "PlantName", "Cost");
             return View();
         }
         [HttpPost]
@@ -37,6 +37,7 @@ namespace WheyMenII.UI.Controllers
                 int oid = Convert.ToInt32(TempData["OrderID"]);
                 item.OrderId = oid;
                 _context.OrderDetails.Add(item);
+                _context.Plant.First(p => p.PlantId == item.PlantId).InventoryCount = _context.Plant.First(p => p.PlantId == item.PlantId).InventoryCount - item.Quantity;
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
@@ -57,6 +58,7 @@ namespace WheyMenII.UI.Controllers
                 int oid = Convert.ToInt32(TempData["OrderID"]);
                 item.OrderId = oid;
                 _context.OrderDetails.Add(item);
+                _context.Plant.First(p => p.PlantId == item.PlantId).InventoryCount = _context.Plant.First(p => p.PlantId == item.PlantId).InventoryCount - item.Quantity;
                 _context.SaveChanges();
                 return RedirectToAction("CreateOrderItem");
             }
