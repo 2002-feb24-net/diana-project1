@@ -5,7 +5,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LimsGarden.Core.Model
 {
-    public partial class Customer
+    ///<summary> 
+    /// This is the Location model with data annotations.
+    ///</summary>
+    public partial class Location
     {
         [Display(Name= "ID")]
         public int LocationId { get; set; }

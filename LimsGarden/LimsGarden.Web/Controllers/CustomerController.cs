@@ -12,6 +12,9 @@ using System.Threading.Tasks;
 
 namespace LimsGarden.Web.Controllers
 {
+    ///<summary> 
+    /// This Controller communicates information relating to Customers.
+    ///</summary>
     public class CustomerController : Controller
     {
         private readonly LimsGardenContext _context = new LimsGardenContext();

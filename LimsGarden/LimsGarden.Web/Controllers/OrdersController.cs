@@ -10,6 +10,9 @@ using LimsGarden.DataAccess.Model;
 
 namespace LimsGarden.Web.Controllers 
 {
+    ///<summary> 
+    /// This Controller communicates information relating to the Orders.
+    ///</summary>
     public class OrdersController : Controller
     {
         private readonly LimsGardenContext _context = new LimsGardenContext();

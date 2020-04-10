@@ -9,6 +9,9 @@ using LimsGarden.Web.Models;
 
 namespace LimsGarden.Web.Controllers
 {
+    ///<summary> 
+    /// This Controller communicates information relating to the Home page.
+    ///</summary>
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

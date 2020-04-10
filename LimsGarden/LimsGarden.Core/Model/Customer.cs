@@ -4,6 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace LimsGarden.Core.Model
 {
+    ///<summary> 
+    /// This is the Customer model with data annotations.
+    ///</summary>
     public partial class Customer
     {
         [Display(Name= "ID")]
