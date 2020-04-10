@@ -10,6 +10,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.plants.First().InventoryCount)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.plants.First().Cost)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -21,6 +24,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.InventoryCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
             </td>
         </tr>
 
