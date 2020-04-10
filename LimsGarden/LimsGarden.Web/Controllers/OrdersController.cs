@@ -101,5 +101,19 @@ namespace WheyMenII.UI.Controllers
             return View(order);
         }
 
+        public IActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var order = _context.Orders.Include("Order").Include("Plant").FirstOrDefault(x => x.OrderId == Convert.ToInt32(id));
+            if (order == null)
+            {
+                return NotFound();
+            }
+            return View(order);
+        }
+
     }
 }

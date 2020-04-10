@@ -42,6 +42,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Location.BranchName)
             </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item">Delete</a>
+            </td>
            
         </tr>
 }

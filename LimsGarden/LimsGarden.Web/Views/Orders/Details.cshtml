@@ -1,0 +1,71 @@
+@model LimsGarden.DataAccess.Model.Orders
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Customer.FirstName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Customer.FirstName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Customer.LastName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Customer.LastName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Location.BranchName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Location.BranchName)
+        </dd>
+    </dl>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDetails.First().Plant.Cost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDetails.First().Plant.PlantName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDetails.First().Quantity)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderDetails)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Plant.Cost)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Plant.PlantName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem=>item.Quantity)
+                </td>
+            </tr>
+        }
+    </tbody>
+    
+</table>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.OrderId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
